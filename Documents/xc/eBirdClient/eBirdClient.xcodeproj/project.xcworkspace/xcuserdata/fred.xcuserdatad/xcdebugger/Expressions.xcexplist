@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "eBirdClient.FavoritesViewController.tableView (eBirdClient.FavoritesViewController)(ObjectiveC.UITableView, cellForRowAtIndexPath : ObjectiveC.NSIndexPath) -&gt; ObjectiveC.UITableViewCell:FavoritesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "savedQueries[0]">
+            </PersistentString>
+            <PersistentString
+               value = "savedQueries[0].title">
+            </PersistentString>
+            <PersistentString
+               value = "cell.textLabel!.text">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.SearchViewController.buildQueryData (eBirdClient.SearchViewController)() -&gt; Swift.Optional&lt;eBirdClient.eBirdQuery.queryData&gt;:SearchViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.SearchViewController.pickerSelect (eBirdClient.SearchViewController)() -&gt; ():SearchViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.textLabel!.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.ResultsViewController.prepareForSegue (eBirdClient.ResultsViewController)(ObjectiveC.UIStoryboardSegue, sender : Swift.ImplicitlyUnwrappedOptional&lt;Swift.AnyObject&gt;) -&gt; ():ResultsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "segue.destinationViewController">
+            </PersistentString>
+            <PersistentString
+               value = "segue.identifier">
+            </PersistentString>
+            <PersistentString
+               value = "segue.destinationViewController.rootViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.StreamReader.nextLine (eBirdClient.StreamReader)() -&gt; Swift.Optional&lt;Swift.String&gt;:StreamReader.swift">
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.StaticSubtitleCell.(subtitleString.setter : Swift.Optional&lt;Swift.String&gt;).(closure #1):StaticSubtitleCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.subviews[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.eBirdQuery.buildQuery (eBirdClient.eBirdQuery)(eBirdClient.eBirdQuery.queryData) -&gt; Swift.Optional&lt;ObjectiveC.NSURL&gt;:eBirdQuery.swift">
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.SecondViewController.didSelectCompositePickerRow (eBirdClient.SecondViewController)(Swift.String) -&gt; ():SecondViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.cellParticularSpecies.detailTextLabel?.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.SearchViewController.tableView (eBirdClient.SearchViewController)(ObjectiveC.UITableView, heightForRowAtIndexPath : ObjectiveC.NSIndexPath) -&gt; CoreGraphics.CGFloat:SearchViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.ResultsViewController.viewDidAppear (eBirdClient.ResultsViewController)(Swift.Bool) -&gt; ():ResultsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "ip.section">
+            </PersistentString>
+            <PersistentString
+               value = "ip.row">
+            </PersistentString>
+            <PersistentString
+               value = "scrollToIndexPath!.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.ResultsViewController.setUpGrouping (eBirdClient.ResultsViewController)(eBirdClient.ResultsViewController.GroupingMode) -&gt; ():ResultsViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.DetailsViewController.viewDidLoad (eBirdClient.DetailsViewController)() -&gt; ():DetailsViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.SearchViewController.(didSelectCompositePickerRow (eBirdClient.SearchViewController) -&gt; (Swift.String) -&gt; ()).(closure #1):SearchViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.frame.size.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.ResultsViewController.tableView (eBirdClient.ResultsViewController)(ObjectiveC.UITableView, numberOfRowsInSection : Swift.Int) -&gt; Swift.Int:ResultsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "groups![section].count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.SearchViewController.pickerView (eBirdClient.SearchViewController)(ObjectiveC.UIPickerView, viewForRow : Swift.Int, forComponent : Swift.Int, reusingView : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIView&gt;) -&gt; ObjectiveC.UIView:SearchViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.LocationViewController.viewWillAppear (eBirdClient.LocationViewController)(Swift.Bool) -&gt; ():LocationViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mapVIew.frame.size.height">
+            </PersistentString>
+            <PersistentString
+               value = "group[0].coordinate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.SecondViewController.buildQueryData (eBirdClient.SecondViewController)() -&gt; Swift.Optional&lt;eBirdClient.eBirdQuery.queryData&gt;:SecondViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.FavoritesViewController.tableView (eBirdClient.FavoritesViewController)(ObjectiveC.UITableView, didSelectRowAtIndexPath : ObjectiveC.NSIndexPath) -&gt; ():FavoritesViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.SecondViewController.prepareForSegue (eBirdClient.SecondViewController)(ObjectiveC.UIStoryboardSegue, sender : Swift.ImplicitlyUnwrappedOptional&lt;Swift.AnyObject&gt;) -&gt; ():SecondViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "segue.destinationViewController">
+            </PersistentString>
+            <PersistentString
+               value = "segue.identifier">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.ResultsViewController.didTapResultCellSpecies (eBirdClient.ResultsViewController)(ObjectiveC.UITableViewCell) -&gt; ():ResultsViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.CompositePickerViewController.filter (eBirdClient.CompositePickerViewController)(Swift.Array&lt;Swift.String&gt;, mustContain : Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;:CompositePickerViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.DataManager.getQueryData (eBirdClient.DataManager)(fromManagedObject : eBirdClient.Query) -&gt; Swift.Optional&lt;eBirdClient.eBirdQuery.queryData&gt;:DataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "obj.speciesList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.SearchViewController.prepareForSegue (eBirdClient.SearchViewController)(ObjectiveC.UIStoryboardSegue, sender : Swift.ImplicitlyUnwrappedOptional&lt;Swift.AnyObject&gt;) -&gt; ():SearchViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "segue.destinationViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.eBirdQuery.sightingsMatch (eBirdClient.eBirdQuery)(first : eBirdClient.eBirdSighting, second : eBirdClient.eBirdSighting) -&gt; Swift.Bool:eBirdQuery.swift">
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.SearchViewController.hotspotLoadSuccess (eBirdClient.SearchViewController)(Swift.Array&lt;eBirdClient.Hotspot&gt;) -&gt; ():SearchViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.ResultCell.initialize (eBirdClient.ResultCell)() -&gt; ():ResultCell.swift">
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.MapPointPickerViewController.mapView (eBirdClient.MapPointPickerViewController)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKMapView&gt;, viewForAnnotation : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKAnnotation&gt;) -&gt; Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKAnnotationView&gt;:MapPointPickerViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.FavoritesViewController.viewWillAppear (eBirdClient.FavoritesViewController)(Swift.Bool) -&gt; ():FavoritesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "results[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.eBirdQuery.initSpeciesList (eBirdClient.eBirdQuery.Type)() -&gt; ():eBirdQuery.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "eBirdSpeciesLookup[&quot;African Black Duck&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "eBirdSpeciesList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.AppDelegate.getSpeciesList (eBirdClient.AppDelegate)() -&gt; ():AppDelegate.swift">
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.SecondViewController.onMapPointPickerCancel (eBirdClient.SecondViewController)() -&gt; ():SecondViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell1.selected">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.MapPointPickerViewController.viewDidLoad (eBirdClient.MapPointPickerViewController)() -&gt; ():MapPointPickerViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.parentViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.SearchViewController.(onMapPointPickerDone (eBirdClient.SearchViewController) -&gt; (C.CLLocationCoordinate2D) -&gt; ()).(closure #1):SearchViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "p!.name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.QueryViewController.tableView (eBirdClient.QueryViewController)(ObjectiveC.UITableView, cellForRowAtIndexPath : ObjectiveC.NSIndexPath) -&gt; ObjectiveC.UITableViewCell:QueryViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "queryResults!.objectAtIndex(indexPath.row) as NSDictionary">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.ResultsViewController.didRequestSectionExpansion (eBirdClient.ResultsViewController)(Swift.Int) -&gt; ():ResultsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "headers.valueForKey(1)">
+            </PersistentString>
+            <PersistentString
+               value = "headers!.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.SearchViewController.getSelectedHotspotNames (eBirdClient.SearchViewController)(getIds : Swift.Bool) -&gt; Swift.String:SearchViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "hotspotList!.count">
+            </PersistentString>
+            <PersistentString
+               value = "hotspotPickerRowSelection!.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.ResultsViewController.tableView (eBirdClient.ResultsViewController)(ObjectiveC.UITableView, viewForHeaderInSection : Swift.Int) -&gt; Swift.Optional&lt;ObjectiveC.UIView&gt;:ResultsViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.ExpandableTableHeader.expanded.setter : Swift.Bool:ResultsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "label.text!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.AppDelegate.(managedObjectModel.getter : ObjectiveC.NSManagedObjectModel).(closure #1):AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "modelURL.absoluteURL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.CompositePickerViewController.tableView (eBirdClient.CompositePickerViewController)(ObjectiveC.UITableView, cellForRowAtIndexPath : ObjectiveC.NSIndexPath) -&gt; ObjectiveC.UITableViewCell:CompositePickerViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.CompositePickerViewController.textFieldDidChange (eBirdClient.CompositePickerViewController)(Swift.AnyObject) -&gt; ():CompositePickerViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "textInput.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.eBirdQuery.(runQuery (eBirdClient.eBirdQuery) -&gt; (Swift.Optional&lt;ObjectiveC.NSURL&gt;, delegate : eBirdClient.eBirdQueryClient) -&gt; ()).(closure #1):eBirdQuery.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "resultItem[&quot;obsValid&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.SecondViewController.onSwitchValueChanged (eBirdClient.SecondViewController)(ObjectiveC.UISwitch) -&gt; ():SecondViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell2.hidden">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.ResultsViewController.viewDidLoad (eBirdClient.ResultsViewController)() -&gt; ():ResultsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "inputQueryData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "eBirdClient.SearchViewController.restoreSliderState (eBirdClient.SearchViewController)(enableRadius : Swift.Bool, radiusKm : Swift.Int, lookBackDays : Swift.Int) -&gt; ():SearchViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "radiusLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

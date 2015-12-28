@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B601E8081A5AC67F002CC6CE /* eBirdClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B601E8061A5AC67F002CC6CE /* eBirdClient.xcdatamodeld */; };
+		B611FED51A644055003F0E56 /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B611FED41A644055003F0E56 /* ResultCell.swift */; };
+		B611FED91A648005003F0E56 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B611FED81A648005003F0E56 /* LocationViewController.swift */; };
+		B611FEDB1A65A263003F0E56 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B611FEDA1A65A263003F0E56 /* DetailsViewController.swift */; };
+		B611FEDD1A65A421003F0E56 /* detailView.html in Resources */ = {isa = PBXBuildFile; fileRef = B611FEDC1A65A421003F0E56 /* detailView.html */; };
+		B6125CA01A5740370079AA88 /* MapPointPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6125C9F1A5740370079AA88 /* MapPointPickerViewController.swift */; };
+		B64276B51A57498900D899F2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64276B41A57498900D899F2 /* MapKit.framework */; };
+		B66C59E21A5C164D0045F3E8 /* ebird_api_ref_taxa_eBird.csv in Resources */ = {isa = PBXBuildFile; fileRef = B66C59E11A5C164D0045F3E8 /* ebird_api_ref_taxa_eBird.csv */; };
+		B66C59E61A5C6BB30045F3E8 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C59E51A5C6BB30045F3E8 /* StreamReader.swift */; };
+		B66C59E81A5D6A0E0045F3E8 /* CompositePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C59E71A5D6A0E0045F3E8 /* CompositePickerViewController.swift */; };
+		B67257421A60713C0064EDF9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B67257411A60713C0064EDF9 /* CoreData.framework */; };
+		B67257501A6093A90064EDF9 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672574F1A6093A90064EDF9 /* FavoritesViewController.swift */; };
+		B67257521A60A59E0064EDF9 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67257511A60A59E0064EDF9 /* Query.swift */; };
+		B6899DFB1A51C2A40025B6DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6899DFA1A51C2A40025B6DD /* AppDelegate.swift */; };
+		B6899DFD1A51C2A40025B6DD /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6899DFC1A51C2A40025B6DD /* ResultsViewController.swift */; };
+		B6899DFF1A51C2A40025B6DD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6899DFE1A51C2A40025B6DD /* SearchViewController.swift */; };
+		B6899E021A51C2A40025B6DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6899E001A51C2A40025B6DD /* Main.storyboard */; };
+		B6899E041A51C2A40025B6DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6899E031A51C2A40025B6DD /* Images.xcassets */; };
+		B6899E071A51C2A40025B6DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6899E051A51C2A40025B6DD /* LaunchScreen.xib */; };
+		B6899E131A51C2A40025B6DD /* eBirdClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6899E121A51C2A40025B6DD /* eBirdClientTests.swift */; };
+		B6899E1D1A51C2CE0025B6DD /* eBirdQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6899E1C1A51C2CE0025B6DD /* eBirdQuery.swift */; };
+		B6A540D41A6730000050D079 /* WikiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A540D31A6730000050D079 /* WikiViewController.swift */; };
+		B6D4D1781A60496C00CE0F88 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D4D1771A60496C00CE0F88 /* DataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		B67257431A6071700064EDF9 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = wrapper.xcdatamodel;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# momc\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		B6899E0D1A51C2A40025B6DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6899DED1A51C2A40025B6DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6899DF41A51C2A40025B6DD;
+			remoteInfo = eBirdClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B601E8071A5AC67F002CC6CE /* eBirdClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eBirdClient.xcdatamodel; sourceTree = "<group>"; };
+		B611FED41A644055003F0E56 /* ResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		B611FED81A648005003F0E56 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationViewController.swift; path = ../LocationViewController.swift; sourceTree = "<group>"; };
+		B611FEDA1A65A263003F0E56 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		B611FEDC1A65A421003F0E56 /* detailView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = detailView.html; sourceTree = "<group>"; };
+		B6125C9F1A5740370079AA88 /* MapPointPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPointPickerViewController.swift; sourceTree = "<group>"; };
+		B64276B41A57498900D899F2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B66C59E11A5C164D0045F3E8 /* ebird_api_ref_taxa_eBird.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ebird_api_ref_taxa_eBird.csv; path = ../../../../Downloads/ebird_api_ref_taxa_eBird.csv; sourceTree = "<group>"; };
+		B66C59E51A5C6BB30045F3E8 /* StreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamReader.swift; sourceTree = "<group>"; };
+		B66C59E71A5D6A0E0045F3E8 /* CompositePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositePickerViewController.swift; sourceTree = "<group>"; };
+		B67257411A60713C0064EDF9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B67257441A6087500064EDF9 /* eBirdClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eBirdClient-Bridging-Header.h"; sourceTree = "<group>"; };
+		B672574F1A6093A90064EDF9 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		B67257511A60A59E0064EDF9 /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		B6899DF51A51C2A40025B6DD /* eBirdClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eBirdClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6899DF91A51C2A40025B6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6899DFA1A51C2A40025B6DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6899DFC1A51C2A40025B6DD /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		B6899DFE1A51C2A40025B6DD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B6899E011A51C2A40025B6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6899E031A51C2A40025B6DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6899E061A51C2A40025B6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B6899E0C1A51C2A40025B6DD /* eBirdClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eBirdClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6899E111A51C2A40025B6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6899E121A51C2A40025B6DD /* eBirdClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eBirdClientTests.swift; sourceTree = "<group>"; };
+		B6899E1C1A51C2CE0025B6DD /* eBirdQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eBirdQuery.swift; sourceTree = "<group>"; };
+		B6A540D31A6730000050D079 /* WikiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiViewController.swift; sourceTree = "<group>"; };
+		B6D4D1771A60496C00CE0F88 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6899DF21A51C2A40025B6DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67257421A60713C0064EDF9 /* CoreData.framework in Frameworks */,
+				B64276B51A57498900D899F2 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6899E091A51C2A40025B6DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6899DEC1A51C2A40025B6DD = {
+			isa = PBXGroup;
+			children = (
+				B67257411A60713C0064EDF9 /* CoreData.framework */,
+				B64276B41A57498900D899F2 /* MapKit.framework */,
+				B6899DF71A51C2A40025B6DD /* eBirdClient */,
+				B6899E0F1A51C2A40025B6DD /* eBirdClientTests */,
+				B6899DF61A51C2A40025B6DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6899DF61A51C2A40025B6DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6899DF51A51C2A40025B6DD /* eBirdClient.app */,
+				B6899E0C1A51C2A40025B6DD /* eBirdClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6899DF71A51C2A40025B6DD /* eBirdClient */ = {
+			isa = PBXGroup;
+			children = (
+				B6899E001A51C2A40025B6DD /* Main.storyboard */,
+				B611FEDA1A65A263003F0E56 /* DetailsViewController.swift */,
+				B672574F1A6093A90064EDF9 /* FavoritesViewController.swift */,
+				B6899DFA1A51C2A40025B6DD /* AppDelegate.swift */,
+				B6899DFC1A51C2A40025B6DD /* ResultsViewController.swift */,
+				B611FED41A644055003F0E56 /* ResultCell.swift */,
+				B6899DFE1A51C2A40025B6DD /* SearchViewController.swift */,
+				B6125C9F1A5740370079AA88 /* MapPointPickerViewController.swift */,
+				B611FED81A648005003F0E56 /* LocationViewController.swift */,
+				B66C59E71A5D6A0E0045F3E8 /* CompositePickerViewController.swift */,
+				B6A540D31A6730000050D079 /* WikiViewController.swift */,
+				B6D4D1771A60496C00CE0F88 /* DataManager.swift */,
+				B6899E1C1A51C2CE0025B6DD /* eBirdQuery.swift */,
+				B66C59E51A5C6BB30045F3E8 /* StreamReader.swift */,
+				B601E8061A5AC67F002CC6CE /* eBirdClient.xcdatamodeld */,
+				B67257511A60A59E0064EDF9 /* Query.swift */,
+				B6899E031A51C2A40025B6DD /* Images.xcassets */,
+				B6899E051A51C2A40025B6DD /* LaunchScreen.xib */,
+				B6899DF81A51C2A40025B6DD /* Supporting Files */,
+				B67257441A6087500064EDF9 /* eBirdClient-Bridging-Header.h */,
+			);
+			path = eBirdClient;
+			sourceTree = "<group>";
+		};
+		B6899DF81A51C2A40025B6DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B66C59E11A5C164D0045F3E8 /* ebird_api_ref_taxa_eBird.csv */,
+				B6899DF91A51C2A40025B6DD /* Info.plist */,
+				B611FEDC1A65A421003F0E56 /* detailView.html */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6899E0F1A51C2A40025B6DD /* eBirdClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6899E121A51C2A40025B6DD /* eBirdClientTests.swift */,
+				B6899E101A51C2A40025B6DD /* Supporting Files */,
+			);
+			path = eBirdClientTests;
+			sourceTree = "<group>";
+		};
+		B6899E101A51C2A40025B6DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6899E111A51C2A40025B6DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6899DF41A51C2A40025B6DD /* eBirdClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6899E161A51C2A40025B6DD /* Build configuration list for PBXNativeTarget "eBirdClient" */;
+			buildPhases = (
+				B6899DF11A51C2A40025B6DD /* Sources */,
+				B6899DF21A51C2A40025B6DD /* Frameworks */,
+				B6899DF31A51C2A40025B6DD /* Resources */,
+			);
+			buildRules = (
+				B67257431A6071700064EDF9 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = eBirdClient;
+			productName = eBirdClient;
+			productReference = B6899DF51A51C2A40025B6DD /* eBirdClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6899E0B1A51C2A40025B6DD /* eBirdClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6899E191A51C2A40025B6DD /* Build configuration list for PBXNativeTarget "eBirdClientTests" */;
+			buildPhases = (
+				B6899E081A51C2A40025B6DD /* Sources */,
+				B6899E091A51C2A40025B6DD /* Frameworks */,
+				B6899E0A1A51C2A40025B6DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6899E0E1A51C2A40025B6DD /* PBXTargetDependency */,
+			);
+			name = eBirdClientTests;
+			productName = eBirdClientTests;
+			productReference = B6899E0C1A51C2A40025B6DD /* eBirdClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6899DED1A51C2A40025B6DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Appleton Software";
+				TargetAttributes = {
+					B6899DF41A51C2A40025B6DD = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = TV3VB3J23U;
+					};
+					B6899E0B1A51C2A40025B6DD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B6899DF41A51C2A40025B6DD;
+					};
+				};
+			};
+			buildConfigurationList = B6899DF01A51C2A40025B6DD /* Build configuration list for PBXProject "eBirdClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6899DEC1A51C2A40025B6DD;
+			productRefGroup = B6899DF61A51C2A40025B6DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6899DF41A51C2A40025B6DD /* eBirdClient */,
+				B6899E0B1A51C2A40025B6DD /* eBirdClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6899DF31A51C2A40025B6DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6899E021A51C2A40025B6DD /* Main.storyboard in Resources */,
+				B6899E071A51C2A40025B6DD /* LaunchScreen.xib in Resources */,
+				B6899E041A51C2A40025B6DD /* Images.xcassets in Resources */,
+				B66C59E21A5C164D0045F3E8 /* ebird_api_ref_taxa_eBird.csv in Resources */,
+				B611FEDD1A65A421003F0E56 /* detailView.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6899E0A1A51C2A40025B6DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6899DF11A51C2A40025B6DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67257501A6093A90064EDF9 /* FavoritesViewController.swift in Sources */,
+				B6899DFF1A51C2A40025B6DD /* SearchViewController.swift in Sources */,
+				B611FED51A644055003F0E56 /* ResultCell.swift in Sources */,
+				B6125CA01A5740370079AA88 /* MapPointPickerViewController.swift in Sources */,
+				B6899DFB1A51C2A40025B6DD /* AppDelegate.swift in Sources */,
+				B66C59E61A5C6BB30045F3E8 /* StreamReader.swift in Sources */,
+				B6D4D1781A60496C00CE0F88 /* DataManager.swift in Sources */,
+				B611FED91A648005003F0E56 /* LocationViewController.swift in Sources */,
+				B6899DFD1A51C2A40025B6DD /* ResultsViewController.swift in Sources */,
+				B6899E1D1A51C2CE0025B6DD /* eBirdQuery.swift in Sources */,
+				B66C59E81A5D6A0E0045F3E8 /* CompositePickerViewController.swift in Sources */,
+				B611FEDB1A65A263003F0E56 /* DetailsViewController.swift in Sources */,
+				B67257521A60A59E0064EDF9 /* Query.swift in Sources */,
+				B6A540D41A6730000050D079 /* WikiViewController.swift in Sources */,
+				B601E8081A5AC67F002CC6CE /* eBirdClient.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6899E081A51C2A40025B6DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6899E131A51C2A40025B6DD /* eBirdClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6899E0E1A51C2A40025B6DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6899DF41A51C2A40025B6DD /* eBirdClient */;
+			targetProxy = B6899E0D1A51C2A40025B6DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6899E001A51C2A40025B6DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6899E011A51C2A40025B6DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6899E051A51C2A40025B6DD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6899E061A51C2A40025B6DD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6899E141A51C2A40025B6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6899E151A51C2A40025B6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6899E171A51C2A40025B6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/eBirdClient",
+				);
+				INFOPLIST_FILE = eBirdClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "eBirdClient/eBirdClient-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6899E181A51C2A40025B6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/eBirdClient",
+				);
+				INFOPLIST_FILE = eBirdClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "eBirdClient/eBirdClient-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		B6899E1A1A51C2A40025B6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = eBirdClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eBirdClient.app/eBirdClient";
+			};
+			name = Debug;
+		};
+		B6899E1B1A51C2A40025B6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = eBirdClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eBirdClient.app/eBirdClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6899DF01A51C2A40025B6DD /* Build configuration list for PBXProject "eBirdClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6899E141A51C2A40025B6DD /* Debug */,
+				B6899E151A51C2A40025B6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6899E161A51C2A40025B6DD /* Build configuration list for PBXNativeTarget "eBirdClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6899E171A51C2A40025B6DD /* Debug */,
+				B6899E181A51C2A40025B6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6899E191A51C2A40025B6DD /* Build configuration list for PBXNativeTarget "eBirdClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6899E1A1A51C2A40025B6DD /* Debug */,
+				B6899E1B1A51C2A40025B6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B601E8061A5AC67F002CC6CE /* eBirdClient.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B601E8071A5AC67F002CC6CE /* eBirdClient.xcdatamodel */,
+			);
+			currentVersion = B601E8071A5AC67F002CC6CE /* eBirdClient.xcdatamodel */;
+			path = eBirdClient.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B6899DED1A51C2A40025B6DD /* Project object */;
+}
